@@ -1,0 +1,13 @@
+Install opam via package manager:
+$ sudo apt install opam emacs tuareg-mode
+
+Install dependencies:
+$ opam install merlin # for autocompletion in emacs
+$ opam install bls12-381
+$ eval $(opam env)
+
+Running the tests:
+$ dune test
+
+Standard library documentation:
+https://caml.inria.fr/pub/docs/manual-ocaml/libref/
