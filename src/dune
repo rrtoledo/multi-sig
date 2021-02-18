@@ -1,6 +1,6 @@
 (library
  (public_name exercise)
  (name exercise)
- (libraries bls12-381)
+ (libraries bls12-381 sha)
  (modules exercise)
 )
